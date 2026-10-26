@@ -1,0 +1,10 @@
+[package]
+name = "ttg-gui"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+eframe = "0.37.0"
+ttg-core = { path = "../ttg-core" }
+ttg-i18n = { path = "../ttg-i18n" }

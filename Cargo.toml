@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "crates/ttg-fixtures",
+    "crates/ttg-core",
+    "crates/ttg-gui",
+    "crates/ttg-i18n",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+rust-version = "1.95"

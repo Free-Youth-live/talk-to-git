@@ -1,0 +1,24 @@
+# 构建与本地生成物（按项目实例化目录名）
+/target/
+/node_modules/
+/dist/
+/fixtures/generated/
+/tools/
+/artifacts/
+*.log
+*.tmp
+*.bak
+*.orig
+*.swp
+*~
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+
+# 隐藏文件/目录默认全忽略（新增合法隐藏项须同步 docs/hooks/tables.sh 的 PATH_ALLOW）
+.*
+!.gitignore
+!.gitattributes

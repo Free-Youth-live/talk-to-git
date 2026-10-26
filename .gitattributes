@@ -1,0 +1,7 @@
+# 文本文件统一 LF；二进制文件不做换行转换与文本 diff。
+* text=auto eol=lf
+*.png binary
+*.ico binary
+*.ttc binary
+*.ttf binary
+*.otf binary
